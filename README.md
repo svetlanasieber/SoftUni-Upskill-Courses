@@ -51,7 +51,7 @@
 
 
 # 📘 Educational Repository Software University (softuni.bg)
-# Programming Basics with Python April 2023
+# Programming Basics with Python Feb 2023
 
 
 <img width="1244" alt="python_basics" src="https://github.com/svetlanasieber/SoftUni-Engineering---sept-2023/assets/135451084/47074d21-8b4e-46cc-8935-79e2bfc84d80">
