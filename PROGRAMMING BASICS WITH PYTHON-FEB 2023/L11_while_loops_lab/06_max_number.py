@@ -9,7 +9,7 @@ while command != "Stop":
     command = input()
 print(max_number)
 
-# Vtori variant bez sys max size
+# 2 variant ohne sys max size
 #max_number = 0
 #command = input()
 #if command != "Stop":
