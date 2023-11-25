@@ -13,7 +13,7 @@
 #    last_string = curr_word
 
 
-# Reshenie Ivan Shopov
+
 
 first_string = input()
 second_string = input()
