@@ -11,7 +11,7 @@
 #    else:
 #        print(f'{current_string} is not pure!')
 
-# Ivan Shopov reshenie:
+
 
 number_of_string = int(input())
 for current_string in range(number_of_string):
