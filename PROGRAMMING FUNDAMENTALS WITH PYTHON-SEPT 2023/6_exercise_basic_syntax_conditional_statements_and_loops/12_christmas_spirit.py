@@ -39,7 +39,6 @@
 # print(f"Total spirit: {christmas_spirit}")
 
 
-# Reshenie Ivan Shopov
 
 quantity_of_decorations = int(input())
 remaining_days = int(input())
