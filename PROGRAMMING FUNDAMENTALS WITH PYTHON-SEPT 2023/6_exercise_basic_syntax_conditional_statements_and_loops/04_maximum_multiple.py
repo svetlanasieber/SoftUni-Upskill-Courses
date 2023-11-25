@@ -26,7 +26,6 @@
 #        break # 99, 98, 97
 # print(number)
 
-# Reshenie Ivan Shopov
 
 divisor = int(input())
 boundary = int(input())
