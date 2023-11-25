@@ -6,7 +6,7 @@
 # d = math.floor((num1+num2) / num3)
 # print(d * num4)
 
-# Ivan Shopov reshenie
+
 
 first_number = int(input())
 second_number = int(input())
