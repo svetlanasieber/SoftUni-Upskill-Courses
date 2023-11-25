@@ -18,8 +18,7 @@
 # else:
 #    print(coffee_counter)
 
-# pregovor na pb-basics_mai s shopov
-# https://softuni.bg/trainings/4154/programming-basics-with-python-may-2023#lesson-56697
+
 
 
 
