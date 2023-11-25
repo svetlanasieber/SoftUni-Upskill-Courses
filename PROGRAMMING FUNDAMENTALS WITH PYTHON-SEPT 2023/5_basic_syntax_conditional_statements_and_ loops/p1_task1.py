@@ -1,5 +1,3 @@
-# Biggest of Three Numbers
-
 number_one = int(input())
 number_two = int(input())
 number_three = int(input())
