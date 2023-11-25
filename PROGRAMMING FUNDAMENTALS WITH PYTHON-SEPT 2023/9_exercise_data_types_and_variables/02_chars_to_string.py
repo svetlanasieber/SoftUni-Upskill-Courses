@@ -11,7 +11,7 @@
 
 # char_to_string()
 
-# Ivan Shopov reshenie
+
 
 first_character = input()
 second_character = input()
