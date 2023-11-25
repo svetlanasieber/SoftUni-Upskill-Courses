@@ -1,6 +1,3 @@
-# https://judge.softuni.org/Contests/Compete/Index/1743#5
-# 06. Extract the Links
-
 import re
 pattern = r'www\.[a-zA-Z0-9-\.]+\.[a-z]+'
 while True:
