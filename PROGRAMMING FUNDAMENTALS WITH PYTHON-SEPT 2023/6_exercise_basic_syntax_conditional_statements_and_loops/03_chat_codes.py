@@ -19,7 +19,6 @@
 #    else: # elif number > 88
 #        print("Bye.")
 
-# Reshenie Ivan Shopov
 
 number_of_messages = int(input())
 for current_message in range(number_of_messages):
