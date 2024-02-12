@@ -91,8 +91,8 @@
 
 
 
-
-# Programming Basics with C++ - January 2024
+# 📘 Educational Repository Software University (softuni.bg)
+# Programming Basics with C++ January 2024
 
 ![314951584_593986465836486_9218750135359595104_n](https://github.com/svetlanasieber/Software-Engineering--Python-and-Cpp-Path---SoftUni/assets/135451084/e5b602cf-3285-4619-973a-d51be63b7615)
 
