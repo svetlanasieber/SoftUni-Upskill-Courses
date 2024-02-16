@@ -1,4 +1,4 @@
-# SoftUni Software Engineering Python && C++ && C# Path 2023-2025
+# SoftUni Software Engineering Python && MOdule C++ && C# Path 2023-2025
  
 # 📘 Educational Repository Software University (softuni.bg)
 # Programming Fundamentals with Python - September 2023
