@@ -2,6 +2,7 @@
  
 # 📘 Educational Repository Software University (softuni.bg)
 # Programming Fundamentals with Python - September 2023
+# Programming Fundamentals with JavaScript - May 2024
 
 
 <img width="1244" alt="python_fundamentals" src="https://github.com/svetlanasieber/SoftUni-Engineering---sept-2023/assets/135451084/de5f4dc4-9899-4b10-a6d8-b568888e8b00">
