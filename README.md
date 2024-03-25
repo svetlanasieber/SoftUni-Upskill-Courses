@@ -1,8 +1,7 @@
 # SoftUni Software Engineering  2023-2025
  
 # 📘 Educational Repository Software University (softuni.bg)
-# Programming Fundamentals with Python - September 2023
-# Programming Fundamentals with CSharp - May 2024
+
 
 
 
