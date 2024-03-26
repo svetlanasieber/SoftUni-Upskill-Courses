@@ -30,4 +30,4 @@ class Program
         // Output the result, formatted to 2 decimal places
         Console.WriteLine($"{total.ToString("F2", CultureInfo.InvariantCulture)}");
     }
-}
+}}
