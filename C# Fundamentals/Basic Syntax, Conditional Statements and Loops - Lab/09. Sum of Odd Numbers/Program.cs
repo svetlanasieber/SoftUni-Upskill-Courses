@@ -1,6 +1,3 @@
-﻿//Create a program that prints on a new line the next n odd numbers (starting from 1).
-//On the last row prints the sum of all n odd numbers.
-
 using System;
 
 
