@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 namespace Substitute
 {
     class Program
@@ -35,7 +35,7 @@ namespace Substitute
                             else if (isValid && firstNum != secondNum)
                             {
                                 Console.WriteLine($"{firstNumFirstD}{firstNumSecondDig} - {secondNumFirstDig}{secondNumSecondDig}");
-                                counter++;
+                                counter++; 
                             }
                             if (counter >= 6)
                             {
@@ -65,4 +65,3 @@ namespace Substitute
         }
     }
 }
-
