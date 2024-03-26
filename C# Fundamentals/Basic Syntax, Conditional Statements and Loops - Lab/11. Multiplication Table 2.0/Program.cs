@@ -1,7 +1,3 @@
-﻿//Rewrite the program from the previous task so it can receive the multiplier from the console.
-//Print the table from the given multiplier to 10. If the given multiplier is more than 10 -
-//print only one row with the integer, the given multiplier, and the product.
-
 using System;
 
 
