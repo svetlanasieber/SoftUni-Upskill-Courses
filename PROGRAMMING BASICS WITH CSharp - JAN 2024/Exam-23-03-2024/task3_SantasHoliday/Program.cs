@@ -1,69 +1,76 @@
-﻿using System;
+using System;
 
-namespace SantasHoliday
+class MainClass
 {
-    class Program
+    public static void Main(string[] args)
     {
-        static void Main(string[] args)
+        double ONE_PERSON_PRICE = 18.00;
+        double APARTMENT_PRICE = 25.00;
+        double PRESIDENT_PRICE = 35.00;
+
+        int days_of_stay = int.Parse(Console.ReadLine());
+        string room_type = Console.ReadLine();
+        string evaluation = Console.ReadLine();
+
+        double room_price = 0;
+
+        if (days_of_stay < 10)
         {
-            int daysStay = int.Parse(Console.ReadLine());
-            string typeOfRoom = Console.ReadLine();
-            string rate = Console.ReadLine();
-
-            double discount = 0;
-            double price = 0;
-
-            switch (typeOfRoom)
+            if (room_type == "room for one person")
             {
-                case "room for one person":
-                    discount = 0;
-                    price = 18;
-                    break;
-                case "apartment":
-                    price = 25;
-                    if (daysStay < 10)
-                    {
-                        discount = 0.3;
-                    }
-                    else if (daysStay >= 10 && daysStay <= 15)
-                    {
-                        discount = 0.35;
-                    }
-                    else
-                    {
-                        discount = 0.5;
-                    }
-                    break;
-                case "president apartment":
-                    price = 35;
-                    if (daysStay < 10)
-                    {
-                        discount = 0.1;
-                    }
-                    else if (daysStay >= 10 && daysStay <= 15)
-                    {
-                        discount = 0.15;
-                    }
-                    else
-                    {
-                        discount = 0.2;
-                    }
-                    break;
+                room_price = ONE_PERSON_PRICE;
             }
-
-            price = price * (daysStay - 1);
-            price -= (discount * price);
-
-            if (rate == "positive")
+            else if (room_type == "apartment")
             {
-                price += (0.25 * price);
+                room_price = APARTMENT_PRICE * (1 - 0.30);
             }
-            else if (rate == "negative")
+            else if (room_type == "president apartment")
             {
-                price -= (0.1 * price);
+                room_price = PRESIDENT_PRICE * (1 - 0.10);
             }
-
-            Console.WriteLine($"{price:f2}");
         }
+        else if (days_of_stay >= 10 && days_of_stay <= 15)
+        {
+            if (room_type == "room for one person")
+            {
+                room_price = ONE_PERSON_PRICE;
+            }
+            else if (room_type == "apartment")
+            {
+                room_price = APARTMENT_PRICE * (1 - 0.35);
+            }
+            else if (room_type == "president apartment")
+            {
+                room_price = PRESIDENT_PRICE * (1 - 0.15);
+            }
+        }
+        else
+        {
+            if (room_type == "room for one person")
+            {
+                room_price = ONE_PERSON_PRICE;
+            }
+            else if (room_type == "apartment")
+            {
+                room_price = APARTMENT_PRICE * (1 - 0.50);
+            }
+            else if (room_type == "president apartment")
+            {
+                room_price = PRESIDENT_PRICE * (1 - 0.20);
+            }
+        }
+
+        double total_price = room_price * (days_of_stay - 1);
+
+        if (evaluation == "positive")
+        {
+            total_price += 0.25 * total_price;
+        }
+        else if (evaluation == "negative")
+        {
+            total_price -= 0.10 * total_price;
+        }
+
+        Console.WriteLine($"{total_price:F2}");
     }
 }
