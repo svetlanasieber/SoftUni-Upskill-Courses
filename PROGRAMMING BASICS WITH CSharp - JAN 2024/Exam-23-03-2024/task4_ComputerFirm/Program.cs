@@ -1,46 +1,47 @@
-﻿using System;
+using System;
 
 class MainClass
 {
     public static void Main(string[] args)
     {
-        int n = int.Parse(Console.ReadLine());
-        double totalSales = 0;
-        double totalRating = 0;
+        int models_of_computers = int.Parse(Console.ReadLine());
+        double reiting = 0;
+        double sales = 0;
 
-        for (int i = 0; i < n; i++)
+        for (int number = 1; number <= models_of_computers; number++)
         {
-            int computerData = int.Parse(Console.ReadLine());
-            int sales = computerData / 10;
-            int rating = computerData % 10;
+            int sales_plus_reiting = int.Parse(Console.ReadLine());
+            int units = sales_plus_reiting % 10;
+            int hundreds_plus_tens = sales_plus_reiting / 10;
 
-            switch (rating)
+            switch (units)
             {
                 case 2:
-                    totalSales += sales * 0.0;
+                    sales += 0;
+                    reiting += units;
                     break;
                 case 3:
-                    totalSales += sales * 0.5;
+                    sales += hundreds_plus_tens * 0.50;
+                    reiting += units;
                     break;
                 case 4:
-                    totalSales += sales * 0.7;
+                    sales += hundreds_plus_tens * 0.70;
+                    reiting += units;
                     break;
                 case 5:
-                    totalSales += sales * 0.85;
+                    sales += hundreds_plus_tens * 0.85;
+                    reiting += units;
                     break;
                 case 6:
-                    totalSales += sales * 1.0;
+                    sales += hundreds_plus_tens * 1.0;
+                    reiting += units;
                     break;
             }
-
-            totalRating += rating;
         }
 
-        double averageRating = totalRating / n;
+        double avg_reiting = reiting / models_of_computers;
 
-        Console.WriteLine($"{totalSales:F2}");
-        Console.WriteLine($"{averageRating:F2}");
+        Console.WriteLine($"{sales:F2}");
+        Console.WriteLine($"{avg_reiting:F2}");
     }
 }
-
-
