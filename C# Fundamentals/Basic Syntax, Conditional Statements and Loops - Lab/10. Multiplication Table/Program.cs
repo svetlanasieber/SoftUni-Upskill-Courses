@@ -1,5 +1,3 @@
-﻿//Create a program that receives an integer as an input. Print the 10 times table for this integer.
-
 using System;
 
 
