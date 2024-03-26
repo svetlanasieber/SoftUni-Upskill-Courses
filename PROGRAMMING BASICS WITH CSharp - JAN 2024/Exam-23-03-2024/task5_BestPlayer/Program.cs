@@ -1,44 +1,46 @@
-﻿using System;
+using System;
 
 class MainClass
 {
     public static void Main(string[] args)
     {
-        string command = Console.ReadLine();
+        int models_of_computers = int.Parse(Console.ReadLine());
+        double reiting = 0;
+        double sales = 0;
 
-        string bestPlayer = "";
-        int bestScore = 0;
-
-        while (command != "END")
+        for (int number = 1; number <= models_of_computers; number++)
         {
-            string playerName = command;
-            int count_of_goals = int.Parse(Console.ReadLine());
+            int sales_plus_reiting = int.Parse(Console.ReadLine());
+            int units = sales_plus_reiting % 10;
+            int hundreds_plus_tens = sales_plus_reiting / 10;
 
-            if (count_of_goals > bestScore)
+            switch (units)
             {
-                bestScore = count_of_goals;
-                bestPlayer = playerName;
+                case 2:
+                    sales += 0;
+                    reiting += units;
+                    break;
+                case 3:
+                    sales += hundreds_plus_tens * 0.50;
+                    reiting += units;
+                    break;
+                case 4:
+                    sales += hundreds_plus_tens * 0.70;
+                    reiting += units;
+                    break;
+                case 5:
+                    sales += hundreds_plus_tens * 0.85;
+                    reiting += units;
+                    break;
+                case 6:
+                    sales += hundreds_plus_tens * 1.0;
+                    reiting += units;
+                    break;
             }
-
-            if (count_of_goals >= 10)
-            {
-                break;
-            }
-
-            command = Console.ReadLine();
         }
 
-        Console.WriteLine($"{bestPlayer} is the best player!");
+        double avg_reiting = reiting / models_of_computers;
 
-        if (bestScore >= 3)
-        {
-            Console.WriteLine($"He has scored {bestScore} goals and made a hat-trick !!!");
-        }
-        else
-        {
-            Console.WriteLine($"He has scored {bestScore} goals.");
-        }
-    }
-}
-
-
+        Console.WriteLine($"{sales:F2}");
+        Console.WriteLine($"{avg_reiting:F2}");
+ 
