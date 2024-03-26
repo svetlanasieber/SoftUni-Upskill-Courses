@@ -1,10 +1,3 @@
-﻿//Create a program that receives 3 lines of input:
-//•	student name 
-//•	age
-//•	average grade. 
-//Your task is to print all the info about the student in the following format:
-//"Name: {student name}, Age: {student age}, Grade: {student grade}".
-
 using System;
 using System.Collections.Generic;
 using System.Linq;
