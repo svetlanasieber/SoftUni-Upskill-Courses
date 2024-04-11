@@ -1,44 +1,46 @@
 #include <iostream>
 #include <string>
+#include <algorithm> // For transform
+using namespace std;
 
 int main() {
-    int baseCampAltitude = 5364;
-    int peakAltitude = 8848;
-    int currentAltitude = baseCampAltitude;
-    int days = 1;
-    std::string input;
-    bool goalReached = false;
+    string command;
+    int daysCounter = 1;
+    int metersCounter = 5364;
+    bool isSucceeded = false;
 
-    while (days <= 5 && currentAltitude < peakAltitude) {
-       
-        std::getline(std::cin, input);
-        if (input == "END") {
+    while (true) {
+        cin >> command;
+        if (command == "END") {
             break;
         }
 
-        if (input == "Yes") {
-            ++days;
+        string isSpendingTheNight = command;
+        transform(isSpendingTheNight.begin(), isSpendingTheNight.end(), isSpendingTheNight.begin(), ::tolower);
+        if (isSpendingTheNight == "yes") {
+            daysCounter++;
         }
 
-        
         int climbedMeters;
-        std::cin >> climbedMeters;
-        std::cin.ignore(); // To ignore the newline character after entering climbed meters
+        cin >> climbedMeters;
+        if (daysCounter > 5) {
+            isSucceeded = false;
+            break;
+        }
+        metersCounter += climbedMeters;
 
-        currentAltitude += climbedMeters;
-
-        if (currentAltitude >= peakAltitude) {
-            goalReached = true;
+        if (metersCounter >= 8848) {
+            isSucceeded = true;
             break;
         }
     }
 
-    if (goalReached) {
-        std::cout << "Goal reached for " << days << " days!\n";
+    if (isSucceeded) {
+        cout << "Goal reached for " << daysCounter << " days!" << endl;
     }
     else {
-        std::cout << "Failed!\n";
-        std::cout << currentAltitude << std::endl;
+        cout << "Failed!" << endl;
+        cout << metersCounter << endl;
     }
 
     return 0;
