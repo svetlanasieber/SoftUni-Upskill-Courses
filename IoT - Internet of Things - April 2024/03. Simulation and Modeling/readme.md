@@ -8,11 +8,6 @@
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 The task is to create a prototype for sous-vide temperature indicator with LEDs
 
-# We need a temperature sensor
-# We need a LED bar 
-# We need to read the temperature sensor and show on the LED bar indication on the status
-# A button to turn on / off all the LEDs
-# Set alarm for temperatures above 75C – all LEDs start to blink
 ![image](https://github.com/svetlanasieber/Software-Engineering--Path-SoftUni/assets/135451084/661c3fca-58f6-4669-a629-080ef3175262)
 
 ![image](https://github.com/svetlanasieber/Software-Engineering--Path-SoftUni/assets/135451084/b650e85f-062f-454a-9b79-bebcad794ed0)
