@@ -4,7 +4,8 @@
 # • Simulation of IoT devices and networks with WokWi;
 # • Hands-on project 2: Modeling and testing an IoT system with WokWi.
 
-# Exercise
+# Exercise <img width="714" alt="Softuni_lect2 - Wokwi ESP32, STM32, Arduino Simulator" src="https://github.com/svetlanasieber/Software-Engineering--Path-SoftUni/assets/135451084/62edd087-aa64-4c5c-bab1-58a93897451b">
+
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 The task is to create a prototype for sous-vide temperature indicator with LEDs
 
