@@ -18,6 +18,7 @@ The task is to create a prototype for sous-vide temperature indicator with LEDs
 # Simplified boundary diagram will be needed
 ![image](https://github.com/svetlanasieber/Software-Engineering--Path-SoftUni/assets/135451084/b36966a4-9dd1-43b5-aef4-e1eb8eaa0b98)
 
+![image](https://github.com/svetlanasieber/Software-Engineering--Path-SoftUni/assets/135451084/6e33c887-bdd0-49d2-88ad-75d79a2ce7c5)
 
 
 
