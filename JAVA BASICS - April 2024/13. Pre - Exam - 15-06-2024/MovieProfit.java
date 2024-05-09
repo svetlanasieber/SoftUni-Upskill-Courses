@@ -6,7 +6,7 @@ public class MovieProfit {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        //прочитаме входните данни
+        
         String movieName = scanner.nextLine();
         int countDays = Integer.parseInt(scanner.nextLine());
         int countTickets = Integer.parseInt(scanner.nextLine());
