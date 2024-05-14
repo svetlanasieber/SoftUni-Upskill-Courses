@@ -1,5 +1,3 @@
-package stacksAndQueues;
-
 import java.util.ArrayDeque;
 import java.util.LinkedHashMap;
 import java.util.Map;
@@ -8,9 +6,9 @@ import java.util.Scanner;
 public class Robotics_10 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        String[] inputRobot = scanner.nextLine().split(";"); //всички роботи с времената
+        String[] inputRobot = scanner.nextLine().split(";"); 
         LinkedHashMap<String, Integer> robots = getLinkedHashMap(inputRobot);
-        String time = scanner.nextLine(); //час:минути:секунди
+        String time = scanner.nextLine();
         int hours = Integer.parseInt(time.split(":")[0]);
         int minutes = Integer.parseInt(time.split(":")[1]);
         int seconds = Integer.parseInt(time.split(":")[2]);
@@ -28,19 +26,19 @@ public class Robotics_10 {
 
         while(!products.isEmpty()){
             String currentProduct = products.poll();
-            //увеличим текущото време
+           
             totalTimeInSeconds++;
             boolean isAssigned = false;
-            //намаляме работното време с 1 секунда
+            
             for (int robot = 0; robot < workingTime.length; robot++) {
                 if(workingTime[robot] > 0) {
                     --workingTime[robot];
                 }
             }
-            //обхождане на работното време
+            
             for (int i = 0; i < workingTime.length; i++) {
                 if(workingTime[i] == 0) {
-                    //свободен -> кой е робота -> времето
+                   
                     int count = 0;
                     for (Map.Entry<String, Integer> robot : robots.entrySet()){
                         if (count == i) {
@@ -58,7 +56,7 @@ public class Robotics_10 {
                     break;
                 }
             }
-            //проверили всички роботи
+            
             if(!isAssigned) {
                 products.offer(currentProduct);
             }
