@@ -17,4 +17,4 @@ This is your textbook last-in-first-out collection, and it does not implement Ja
 
 # The Deque. 
 Also known as the "double ended queue". According to Java's own documentation, Stack is deprecated in favor of using one of the Deque's concrete implementations (like ArrayDeque). The interesting thing to note about a Deque is that it does implement the Queue interface. After all, a double ended queue is effectively a combination of both a Queue and a Stack (you just choose which end you want to pop from).
-So the direct answer to your question is that Java considers a Stack a type of Queue because its preferred implementation of the Stack is a double ended queue, which is both a Stack and a Queue simultaneously. In other words, implementing a LIFO stack and a FIFO queue are not mutually exclusive concepts.
+Java considers a Stack a type of Queue because its preferred implementation of the Stack is a double ended queue, which is both a Stack and a Queue simultaneously. In other words, implementing a LIFO stack and a FIFO queue are not mutually exclusive concepts.
