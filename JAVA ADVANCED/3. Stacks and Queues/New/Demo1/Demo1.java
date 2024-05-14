@@ -12,6 +12,11 @@ public class Demo1 {
         stack.push(2);
         stack.push(3);
 
+        System.out.println(stack.size());
+        System.out.println(stack.isEmpty());
+        System.out.println(stack.contains(3));
+        // stack.
+
         Integer popped = stack.pop(); //last element
         System.out.println(popped);
 
