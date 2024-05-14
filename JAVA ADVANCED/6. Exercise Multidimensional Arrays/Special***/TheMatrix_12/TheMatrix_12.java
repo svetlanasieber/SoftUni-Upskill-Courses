@@ -1,9 +1,7 @@
-package Day4_Multidimensional_Arrays_Exercise;
-
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class P12_The_Matrix {
+public class TheMatrix_12 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         char[][] matrix = getMatrix(scanner);
