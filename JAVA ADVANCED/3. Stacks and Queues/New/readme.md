@@ -22,7 +22,8 @@ Java considers a Stack a type of Queue because its preferred implementation of t
 
 # Difference between Stack and Queue
 
-# Stack
+# Stack 
+![main-qimg-94dcbbc219ba6f03d06a839d763bbfc2](https://github.com/svetlanasieber/Software-Engineering--Path-SoftUni/assets/135451084/7b511f37-955c-4ea3-8fc3-f18a44d556a8)
 
 The stack is based on LIFO(Last In First Out) principle
 Insertion Operation is called Push Operation
@@ -36,6 +37,7 @@ Can be considered as a vertical collection visually
 Used to solve the recursive type problems
 
 # Queue
+![main-qimg-c6ed57249915b12a3d82e3cc7436e48b](https://github.com/svetlanasieber/Software-Engineering--Path-SoftUni/assets/135451084/1c0daa7f-ca86-4537-aace-bdcabf1c70f8)
 
 The queue is based on FIFO(First In First Out) principle.
 Insertion Operation is called Enqueue Operation
