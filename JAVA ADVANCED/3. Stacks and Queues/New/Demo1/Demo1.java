@@ -12,7 +12,10 @@ public class Demo1 {
         stack.push(2);
         stack.push(3);
 
-        Integer popped = stack.pop();
+        Integer popped = stack.pop(); //last element
         System.out.println(popped);
+
+        System.out.println(stack.peek());
+
     }
 }
