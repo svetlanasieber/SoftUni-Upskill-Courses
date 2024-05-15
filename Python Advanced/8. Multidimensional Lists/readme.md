@@ -1,1 +1,4 @@
-
+# • Definition and Usage;
+# • Creating Multidimensional Lists (using loops or comprehensions);
+# • Traversing and Manipulation;
+# • Other Nested Structures.
