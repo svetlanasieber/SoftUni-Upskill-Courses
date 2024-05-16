@@ -2,7 +2,7 @@ package BasicsSyntaxLab;
 
 import java.util.Scanner;
 
-public class StudentInformation_01 {
+public class P01_StudentInformation {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
