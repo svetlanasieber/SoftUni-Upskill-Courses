@@ -2,7 +2,7 @@ package BasicsSyntaxLab;
 
 import java.util.Scanner;
 
-public class Passed_02 {
+public class P02_Passed {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
