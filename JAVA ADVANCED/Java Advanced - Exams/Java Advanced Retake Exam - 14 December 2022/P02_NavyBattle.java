@@ -1,8 +1,6 @@
-package _14_Exams._07_JavaAdvancedRetakeExam_14December2022;
-
 import java.util.Scanner;
 
-public class _02_NavyBattle {
+public class P02_NavyBattle {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
