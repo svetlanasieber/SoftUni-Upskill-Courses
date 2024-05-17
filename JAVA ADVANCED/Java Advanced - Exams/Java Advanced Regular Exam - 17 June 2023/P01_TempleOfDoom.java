@@ -1,7 +1,7 @@
 import java.util.*;
 import java.util.stream.Collectors;
 
-public class _01_TempleOfDoom {
+public class P01_TempleOfDoom {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
