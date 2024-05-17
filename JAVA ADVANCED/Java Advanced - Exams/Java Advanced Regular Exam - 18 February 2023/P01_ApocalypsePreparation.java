@@ -1,9 +1,7 @@
-package _14_Exams._06_JavaAdvancedRegularExam_18February2023;
-
 import java.util.*;
 import java.util.stream.Collectors;
 
-public class _01_ApocalypsePreparation {
+public class P01_ApocalypsePreparation {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
