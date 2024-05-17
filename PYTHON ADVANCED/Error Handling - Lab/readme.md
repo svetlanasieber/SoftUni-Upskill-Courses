@@ -1,1 +1,4 @@
-
+# • Errors and Exceptions;
+# • Common Error Types;
+# • Custom Exceptions;
+# • Catching Exceptions.
