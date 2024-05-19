@@ -1,9 +1,7 @@
-package MultidimensionalArrays;
-
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class P01CompareMatrices {
+public class P01_CompareMatrices {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
