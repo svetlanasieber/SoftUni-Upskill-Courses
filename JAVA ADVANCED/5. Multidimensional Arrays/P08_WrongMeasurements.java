@@ -1,11 +1,9 @@
-package MultidimensionalArrays;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
 
-public class P08WrongMeasurements {
+public class P08_WrongMeasurements {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
