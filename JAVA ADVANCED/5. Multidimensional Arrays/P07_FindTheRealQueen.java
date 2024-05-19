@@ -1,8 +1,6 @@
-package MultidimensionalArrays;
-
 import java.util.Scanner;
 
-public class P07FindTheRealQueen {
+public class P07_FindTheRealQueen {
     public static void main(String[] args) {
 
         Scanner scan = new Scanner(System.in);
