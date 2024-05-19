@@ -1,10 +1,8 @@
-package _01_StacksAndQueues._01_Lab;
-
 import java.util.ArrayDeque;
 import java.util.Deque;
 import java.util.Scanner;
 
-public class _08_BrowserHistoryUpgrade {
+public class P08_BrowserHistoryUpgrade {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
