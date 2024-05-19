@@ -1,10 +1,8 @@
-package _01_StacksAndQueues._01_Lab;
-
 import java.util.ArrayDeque;
 import java.util.Deque;
 import java.util.Scanner;
 
-public class _04_MatchingBrackets {
+public class P04_MatchingBrackets {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
