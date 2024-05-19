@@ -1,10 +1,8 @@
-package _01_StacksAndQueues._01_Lab;
-
 import java.util.ArrayDeque;
 import java.util.Queue;
 import java.util.Scanner;
 
-public class _05_PrinterQueue {
+public class P05_PrinterQueue {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
