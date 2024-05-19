@@ -1,9 +1,7 @@
-package MultidimensionalArrays;
-
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class P05MaximumSumOf2x2Submatrix {
+public class P05_MaximumSumOf2x2Submatrix {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
