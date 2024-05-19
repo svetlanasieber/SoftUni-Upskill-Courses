@@ -1,9 +1,7 @@
-package _01_StacksAndQueues._01_Lab;
-
 import java.util.ArrayDeque;
 import java.util.Scanner;
 
-public class _02_SimpleCalculator {
+public class P02_SimpleCalculator {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
