@@ -1,9 +1,7 @@
-package MultidimensionalArrays;
-
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class P06PrintDiagonalsOfSquareMatrix {
+public class P06_PrintDiagonalsOfSquareMatrix {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
