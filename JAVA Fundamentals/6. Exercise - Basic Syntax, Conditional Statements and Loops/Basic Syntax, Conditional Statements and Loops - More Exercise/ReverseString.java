@@ -1,5 +1,3 @@
-package BasicSyntaxConditionalStatementsAndLoops.MoreExercises;
-
 import java.util.Scanner;
 
 public class ReverseString {
