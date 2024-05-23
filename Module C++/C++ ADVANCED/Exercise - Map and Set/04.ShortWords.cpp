@@ -8,7 +8,7 @@
 
 using namespace std;
 
-// Function to convert a string to lowercase
+
 string toLowerCase(const string& str) {
     string lowerStr;
     for (char c : str) {
@@ -19,11 +19,11 @@ string toLowerCase(const string& str) {
 
 int main() {
     string line;
-    getline(cin, line);  // Read the entire input line
+    getline(cin, line);
 
     istringstream istr(line);
-    set<string> uniqueWords;  // Set to store unique words
-    vector<string> shortWords;  // Vector to store short words
+    set<string> uniqueWords;  
+    vector<string> shortWords; 
 
     string word;
     while (istr >> word) {
@@ -33,10 +33,9 @@ int main() {
         }
     }
 
-    // Copy unique words to a vector
+    
     shortWords.assign(uniqueWords.begin(), uniqueWords.end());
 
-    // Sort the vector alphabetically
     sort(shortWords.begin(), shortWords.end());
 
     // Print the words separated by a comma and a space
