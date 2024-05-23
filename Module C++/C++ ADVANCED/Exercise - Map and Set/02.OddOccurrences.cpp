@@ -8,7 +8,7 @@
 
 using namespace std;
 
-// Function to convert a string to lowercase
+
 string toLowerCase(const string& str) {
     string lowerStr;
     for (char c : str) {
@@ -27,7 +27,7 @@ int main() {
     istringstream istr(line);
     string word;
 
-    // Read words and count their occurrences
+  
     while (istr >> word) {
         string lowerWord = toLowerCase(word);
         if (wordCounts.find(lowerWord) == wordCounts.end()) {
@@ -36,7 +36,7 @@ int main() {
         wordCounts[lowerWord]++;
     }
 
-    // Print words that appear an odd number of times with commas
+    //  with commas
     bool first = true;
     for (const string& w : wordsInOrder) {
         if (wordCounts[w] % 2 != 0) {
