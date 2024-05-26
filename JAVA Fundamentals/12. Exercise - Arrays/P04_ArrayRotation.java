@@ -3,7 +3,7 @@ package Day06_Arrays_Exercise;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class P04_Array_Rotation {
+public class P04_ArrayRotation {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
