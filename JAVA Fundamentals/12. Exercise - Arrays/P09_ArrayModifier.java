@@ -3,7 +3,7 @@ package Day06_Arrays_Exercise;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class P09_Array_Modifier {
+public class P09_ArrayModifier {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
