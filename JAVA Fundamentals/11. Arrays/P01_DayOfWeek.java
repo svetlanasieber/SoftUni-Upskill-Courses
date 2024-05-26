@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class P01_Day_of_Week {
+public class P01_DayOfWeek {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
