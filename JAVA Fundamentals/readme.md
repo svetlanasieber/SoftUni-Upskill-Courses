@@ -5,6 +5,8 @@
 
 ## Java Fundamentals
 
+
+
 | Topic                                            | Type           |
 |--------------------------------------------------|----------------|
 | Language Comparison                              | Introduction   |
@@ -15,22 +17,22 @@
 | Data Types and Variables                         | Introduction   |
 | Exercise: Data Types and Variables               | Exercise       |
 | HTTP Basics                                      | Introduction   |
-| Lists Basics                                     | Introduction   |
-| Exercise: Lists Basics                           | Exercise       |
+| Arrays                                           | Introduction   |
+| Exercise: Arrays                                 | Exercise       |
 | HTML & CSS Basics                                | Introduction   |
-| Functions                                        | Introduction   |
-| Exercise: Functions                              | Exercise       |
+| Methods                                          | Introduction   |
+| Exercise: Methods                                | Exercise       |
 | Software Development Concepts - Part 1           | Introduction   |
-| Lists Advanced                                   | Introduction   |
-| Exercise: Lists Advanced                         | Exercise       |
+| List                                             | Introduction   |
+| Exercise: List                                   | Exercise       |
 | Exam Preparation                                 | Session        |
 | Exam Preparation                                 | Session        |
 | Regular Mid Exam                                 | Exam           |
 | Objects and Classes                              | Introduction   |
 | Exercise: Objects and Classes                    | Exercise       |
 | Software Development Concepts - Part 2           | Introduction   |
-| Dictionaries                                     | Introduction   |
-| Exercise: Dictionaries                           | Exercise       |
+| Associative Arrays                               | Introduction   |
+| Exercise: Associative Arrays                     | Exercise       |
 | Bitwise Operations                               | Introduction   |
 | Text Processing                                  | Introduction   |
 | Exercise: Text Processing                        | Exercise       |
@@ -43,4 +45,5 @@
 | QA Introduction                                  | Introduction   |
 | Basic Web Project                                | Project        |
 | Regular Final Exam                               | Exam           |
+
 
