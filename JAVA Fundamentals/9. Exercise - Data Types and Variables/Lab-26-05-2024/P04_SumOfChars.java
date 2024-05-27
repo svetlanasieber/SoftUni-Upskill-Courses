@@ -7,11 +7,11 @@ public class P04_SumOfChars {
         Scanner scanner = new Scanner(System.in);
 
         int countSymbols = Integer.parseInt(scanner.nextLine());
-        int sum = 0; //сумата от аски кодовете на символите
+        int sum = 0;
 
         for (int i = 1; i <= countSymbols; i++) {
-            char symbol = scanner.nextLine().charAt(0); //въведения символ от конзолата
-            int code = (int) symbol; //аски кода на въведения символ
+            char symbol = scanner.nextLine().charAt(0); 
+            int code = (int) symbol; 
             sum += code;
         }
 
