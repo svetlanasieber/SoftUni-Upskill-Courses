@@ -1,0 +1,1 @@
+<img width="932" alt="2024-05-28 01_15_51-(8) Programming Basics with C++ - September 2023 @SoftUni _ Facebook" src="https://github.com/svetlanasieber/Software-Engineering--Path-SoftUni/assets/135451084/7d03af44-4c9c-4f43-8921-2771ef4e6c83">
