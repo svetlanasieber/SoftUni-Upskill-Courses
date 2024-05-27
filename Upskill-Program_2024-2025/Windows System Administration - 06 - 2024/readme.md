@@ -1,3 +1,7 @@
+
+<img width="936" alt="2024-05-27 03_42_53-(10) Windows System Administration - June 2024 @SoftUni _ Facebook" src="https://github.com/svetlanasieber/Software-Engineering--Path-SoftUni/assets/135451084/5567ecc8-d52c-4952-9c2a-4a7c94424fad">
+
+
 ## Windows System Administration
 
 | Topic                                      | Description   |
