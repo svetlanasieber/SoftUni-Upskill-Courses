@@ -1,3 +1,9 @@
+
+
+
+<img width="930" alt="2024-05-27 03_41_20-(10) Linux System Administration - September 2024 @SoftUni _ Facebook" src="https://github.com/svetlanasieber/Software-Engineering--Path-SoftUni/assets/135451084/c114c9e7-98ea-44c9-acaa-8972f5998fd3">
+
+
 ## Linux System Administration
 
 | Topic                                           | Description   |
