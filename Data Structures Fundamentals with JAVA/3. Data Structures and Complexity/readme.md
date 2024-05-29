@@ -1,1 +1,4 @@
-
+# • Abstract Data Structures (ADS) and implementations;
+# • Algorithmic complexity;
+# • Analyzing algorithms complexity;
+# • Memory heirarchy.
