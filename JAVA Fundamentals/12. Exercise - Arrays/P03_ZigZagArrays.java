@@ -1,5 +1,3 @@
-package Day06_Arrays_Exercise;
-
 import java.util.Scanner;
 
 public class P03_ZigZagArrays {
