@@ -1,5 +1,3 @@
-package Day06_Arrays_Exercise;
-
 import java.util.Arrays;
 import java.util.Scanner;
 
