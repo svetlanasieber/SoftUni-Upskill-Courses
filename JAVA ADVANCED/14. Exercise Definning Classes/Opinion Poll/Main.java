@@ -24,7 +24,6 @@ public class Main {
         peopleList.sort(Comparator.comparing(person -> person.getName()));
 
         for (Person person : peopleList) {
-            //обект под формата на текст
             System.out.println(person.toString());
         }
     }
