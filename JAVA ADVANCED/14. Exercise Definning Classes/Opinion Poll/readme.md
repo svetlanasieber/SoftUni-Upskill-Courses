@@ -4,4 +4,5 @@
 
 
 
-<img width="114" alt="2024-06-03 01_10_16-06-Java-Advanced-Defining-Classes-Exercises-eng - Word" src="https://github.com/svetlanasieber/Software-Engineering--Path-SoftUni/assets/135451084/3f9110fe-9e13-4d1b-8613-22c5fd76ef9b">
+<img width="107" alt="2024-06-03 01_10_51-06-Java-Advanced-Defining-Classes-Exercises-eng - Word" src="https://github.com/svetlanasieber/Software-Engineering--Path-SoftUni/assets/135451084/c72df45b-6125-4401-87ce-8c664a75671a">
+
