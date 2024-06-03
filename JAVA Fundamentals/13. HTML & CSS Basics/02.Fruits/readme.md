@@ -1,5 +1,5 @@
 
-# •	Change the file name to fruits.html.
+# •	Change the file name to fruits.html
 # •	You are given 4 image files: apple.png, banana.png, kiwi.png, orange.png.
 # •	Use 3 paragraphs - each holding 5 images.
 # •	Add header Fruits.
