@@ -1,6 +1,6 @@
 # •	Filename: wiki-page.html.
 # •	Title: The Brown Bear:
-# 	Use <h1>
+# 	Use "<h1>"
 # •	Hyperlink: https://en.wikipedia.org/wiki/Brown_bear.
 # •	List: use ordered list and unordered list.
 # •	Text: use paragraph:
