@@ -1,5 +1,4 @@
 
-# Create a web page like the following: 
 # Constraints
 •	Change the file name to welcome.html.
 •	Use paragraph tag for plain text and strong tag for bold text.
