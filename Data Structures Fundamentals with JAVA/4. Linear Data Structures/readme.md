@@ -1,4 +1,0 @@
-# • Linear Data Structures;
-# • Dynamic Arays;
-# • Queues;
-# • Stack.
