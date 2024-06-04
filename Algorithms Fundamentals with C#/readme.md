@@ -1,6 +1,3 @@
-Algorithms Fundamentals with C#
-
-
 
 ## Table of Contents
 
@@ -16,9 +13,7 @@ Algorithms Fundamentals with C#
 - [Exam preparation](#exam-preparation)
 - [Regular Exam](#regular-exam)
 
-## Resources
 
-Include the resources you found useful here.
 
 ## Recursion and Backtracking
 
@@ -54,9 +49,9 @@ Exercises to practice dynamic programming.
 
 ## Exam Preparation
 
-Tips and resources for preparing for exams.
+
 
 ## Regular Exam
 
-Information about the regular exam schedule and format.
+
 
