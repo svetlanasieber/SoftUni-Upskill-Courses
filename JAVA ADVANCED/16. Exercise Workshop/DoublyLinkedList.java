@@ -1,4 +1,4 @@
-package _07_Workshop._02_Exercise;
+package WorkshopExercise;
 
 import java.util.NoSuchElementException;
 import java.util.function.Consumer;
@@ -19,44 +19,38 @@ public class DoublyLinkedList {
     private Node tail;
     private int size;
 
-    // void addFirst(int element)
-    // – adds an element at the beginning of the collection
     public void addFirst(int element) {
         Node newNode = new Node(element);
 
         if (this.size == 0) {
             this.head = this.tail = newNode;
         } else {
-            // закачаме на новия Node next-a към старата глава
+         
             newNode.next = this.head;
-            // закачаме на старата глава  prevNode към newNode
+          
             this.head.prev = newNode;
-            // поставяме новата глава
+          
             this.head = newNode;
         }
         this.size++;
     }
 
-    // void addLast(int element)
-    // – adds an element at the end of the collection
     public void addLast(int element) {
         Node newNode = new Node(element);
 
         if (this.size == 0) {
             this.head = this.tail = newNode;
         } else {
-            // закачаме на новия Node prev-a към старата опашка
+        
             newNode.prev = this.tail;
-            // закачаме на старата опашка next-a към newNode
+           
             this.tail.next = newNode;
-            // поставяме новата опашка
+           
             this.tail = newNode;
         }
         this.size++;
     }
 
-    // int get(int index)
-    // - Returns the element at the specified position in this list
     public int get(int index) {
         checkIndex(index);
 
@@ -77,26 +71,23 @@ public class DoublyLinkedList {
         return currentNode.element;
     }
 
-    // int removeFirst()
-    // – removes the element at the beginning of the collection
     public int removeFirst() {
         checkEmpty();
         int element = this.head.element;
         this.head = this.head.next;
 
         if (this.head == null) {
-            // точно един елемент
+       
             this.tail = null;
         } else {
-            // много елементи
+           
             this.head.prev = null;
         }
         this.size--;
         return element;
     }
 
-    // int removeLast()
-    // – removes the element at the end of the collection
+
     public int removeLast() {
         checkEmpty();
         int element = this.tail.element;
@@ -112,7 +103,7 @@ public class DoublyLinkedList {
         return element;
     }
 
-    // void forEach() – goes through the collection and executes a given action
+    
     public void forEach(Consumer<Integer> consumer) {
         Node currentNode = this.head;
 
@@ -123,7 +114,7 @@ public class DoublyLinkedList {
 
     }
 
-    // int[] toArray() – returns the collection as an array
+    
     public int[] toArray() {
         int[] array = new int[this.size];
         Node currentNode = this.head;
