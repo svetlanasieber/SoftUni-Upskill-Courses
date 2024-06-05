@@ -10,7 +10,6 @@ public class Element {
         this.next = next;
     }
 
-    // Override -> пренапиша предефинаран метод
     public String toString() {
         return String.valueOf(this.value);
     }
