@@ -1,8 +1,6 @@
-package _04_Methods._01_Lab;
-
 import java.util.Scanner;
 
-public class _03_PrintingTriangle {
+public class P03_PrintingTriangle {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
