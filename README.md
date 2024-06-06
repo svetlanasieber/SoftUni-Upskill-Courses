@@ -1,12 +1,21 @@
 # SoftUni Software Engineering  2023-2024-2025-2026
- 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+![Logo_Software_University_(SoftUni)_-_blue_background](https://github.com/svetlanasieber/Software-Engineering--Path-SoftUni/assets/135451084/1e3d3eab-9ad9-480e-8993-e5cd4f6bd17a)
+
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
 # 📘 Educational Repository Software University (softuni.bg)
 
 
 
 
 # This repository contains projects and assignments related to my education at Software University [**SoftUni**](https://softuni.bg/).
-![software-university-logo-2D117356A9-seeklogo com](https://github.com/svetlanasieber/Programming-Fundamentals-with-Python/assets/135451084/893acbb0-23e8-444e-99cb-c497ca92c3b8)
+
 
 
 
