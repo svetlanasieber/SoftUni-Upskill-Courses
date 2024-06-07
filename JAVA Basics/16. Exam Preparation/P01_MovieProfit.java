@@ -1,3 +1,4 @@
+//https://judge.softuni.bg/Contests/Practice/Index/1699#1
 import java.util.Scanner;
 
 public class P01_MovieProfit {
