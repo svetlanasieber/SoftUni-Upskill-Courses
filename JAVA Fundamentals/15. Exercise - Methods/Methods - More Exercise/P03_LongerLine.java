@@ -1,5 +1,3 @@
-package Fundamentals.Methods.Exercises.MoreExercise;
-
 import java.util.Scanner;
 
 public class P03_LongerLine {
