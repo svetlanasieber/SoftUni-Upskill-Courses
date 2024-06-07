@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class MovieProfit {
+public class P01_MovieProfit {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
