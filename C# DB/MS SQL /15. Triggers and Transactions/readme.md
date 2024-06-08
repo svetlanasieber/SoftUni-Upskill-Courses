@@ -1,3 +1,0 @@
-# • Transactions;
-# • ACID Model;
-# • Triggers.
