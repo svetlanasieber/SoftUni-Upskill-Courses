@@ -1,3 +1,0 @@
-# • Associative Arrays;
-# • Lambda Expressions;
-# • LINQ (Filtering, Mapping).

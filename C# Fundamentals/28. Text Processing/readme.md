@@ -1,3 +1,0 @@
-# • Strings;
-# • Manipulating Strings;
-# • Building and Modifying Strings.
