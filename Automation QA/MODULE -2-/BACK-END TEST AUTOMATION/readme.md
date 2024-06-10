@@ -1,0 +1,2 @@
+<img width="257" alt="2024-06-10 18_50_20-Back-End Test Automation - септември 2024 - Софтуерен университет" src="https://github.com/svetlanasieber/Software-Engineering--Path-SoftUni/assets/135451084/72c026c8-8264-4bdb-b0fa-f4c166136e50">
+<img width="427" alt="2024-06-10 18_51_19-Back-End Test Automation - септември 2024 - Софтуерен университет" src="https://github.com/svetlanasieber/Software-Engineering--Path-SoftUni/assets/135451084/21eee21d-f44c-4a91-9a2e-d983ad6de4dc">
