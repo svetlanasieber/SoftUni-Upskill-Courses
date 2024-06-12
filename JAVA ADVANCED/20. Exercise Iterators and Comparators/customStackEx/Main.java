@@ -14,8 +14,6 @@ public class Main {
         String command = scanner.nextLine();
         while (!command.equals("END")) {
 
-            // Pop
-            // Push 2, 3, 5, 8
             if (command.equals("Pop")) {
                 stack.pop();
             } else {
