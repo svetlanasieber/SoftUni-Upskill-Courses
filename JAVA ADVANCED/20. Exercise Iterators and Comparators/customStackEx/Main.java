@@ -17,9 +17,9 @@ public class Main {
             if (command.equals("Pop")) {
                 stack.pop();
             } else {
-                int[] numbers = Arrays.stream(command.replace("Push ", "") // "2, 3, 5, 8"
-                                .split(", ")) // [2, 3, 5, 8]
-                        .mapToInt(Integer::parseInt) // [2, 3, 5, 8]
+                int[] numbers = Arrays.stream(command.replace("Push ", "")
+                                .split(", ")) 
+                        .mapToInt(Integer::parseInt) 
                         .toArray();
                 for (int number : numbers) {
                     stack.push(number);
