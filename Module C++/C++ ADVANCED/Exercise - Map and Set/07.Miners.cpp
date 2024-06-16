@@ -34,7 +34,7 @@ int main() {
 
         
         resources[resourceLower] += quantity;
-        // Запазване на оригиналното име на ресурса
+
         originalResources[resourceLower] = resource;
     }
 
