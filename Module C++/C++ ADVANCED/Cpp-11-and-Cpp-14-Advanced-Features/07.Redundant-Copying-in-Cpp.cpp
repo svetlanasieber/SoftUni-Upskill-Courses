@@ -126,11 +126,7 @@ SmartArray<double> calculateRoots(const SmartArray<double> & numbers) {
 }
 
 int main() {
-    SmartArray<double> numbers {1, 2, 3, 4, 5, 6, 7, 8, 9};
-    // NOTE: for the purpose of the demo, we're assigning to the same array we are passing in as a parameter - this is
-    // only to prevent the compiler from replacing numbers by inlining calculateRoots. Inlining effectively negates
-    // the redundant copying, because there is effectively no "return". But reducing copying by inlining isn't always
-    // possible, so this demo intentionally puts the compiler in a situation where that optimization can't be done
+    
     numbers = calculateRoots(numbers);
 
     for(int i = 0; i < numbers.getLength(); i++) {
