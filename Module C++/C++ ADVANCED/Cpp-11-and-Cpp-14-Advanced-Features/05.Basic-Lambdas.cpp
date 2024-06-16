@@ -35,9 +35,7 @@ std::ostream& operator<<(std::ostream& stream, const Person& p) {
 }
 
 int main() {
-    // NOTE: writing Person before each item's init list is actually not necessary - it's only necessary for the std::list<Person>, from there on the compiler knows the type of each item
-    std::list<Person> people {Person{"Ben Dover", 55}, Person{"Noa Ge"}, Person{"Charlie Foxtrot", 69}, Person{}};
-
+   
     std::cout << *std::find_if(people.begin(), people.end(), [](const Person& p) { return p.getAge() == 69;} ) << std::endl;
 
     std::cout << "----------" << std::endl;
