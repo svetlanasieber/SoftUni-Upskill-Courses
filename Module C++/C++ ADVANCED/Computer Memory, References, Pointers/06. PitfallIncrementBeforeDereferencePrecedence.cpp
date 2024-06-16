@@ -8,9 +8,5 @@ int main() {
 
 	*ptr++;
 	cout << *ptr << endl;
-	// proper syntax if we want to increment number:
-	// (*ptr)++;
-	// cout << *ptr << endl;
-
 	return 0;
 }
