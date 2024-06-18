@@ -55,16 +55,16 @@ This matrix represents the distances:
 
 **Output**
 
-# A B C
-# A 0 3 4
-# B 3 0 1
-# C 6 2 0
+ A B C
+ A 0 3 4
+ B 3 0 1
+ C 6 2 0
 
-# AC(4) - CA(6)
-# BC(1) - CB(2)
+ AC(4) - CA(6)
+ BC(1) - CB(2)
 
-# Total opportunities: 3
-# Max optimization: 2: AC-CA
+ Total opportunities: 3
+ Max optimization: 2: AC-CA
 
 
 #### Example 2
