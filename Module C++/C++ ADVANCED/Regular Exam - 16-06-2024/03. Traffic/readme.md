@@ -80,6 +80,4 @@ You're designing a smart traffic control system. To do so, you need to write a h
 | --- | --- | --- | --- |
 | A B C D E <br> A 0 3 4 7 9 <br> B 3 0 1 3 1 <br> C 4 1 0 4 2 <br> D 7 3 4 0 5 <br> E 9 1 2 5 0 | None | 0 | None |
 
-### Follow Us
 
-© SoftUni – [about.softuni.bg](https://about.softuni.bg). Copyrighted document. Unauthorized copy reproduction or use is not permitted.
