@@ -1,5 +1,5 @@
 
-![logo](https://github.com/svetlanasieber/Software-Engineering--Path-SoftUni/assets/135451084/24c0ef30-ae4b-4042-91d3-5eb7c6f853b6)
+<img width="1172" alt="Screenshot 2024-06-18 202633" src="https://github.com/svetlanasieber/Software-Engineering--Path-SoftUni/assets/135451084/1560f77b-39ed-4d72-8294-ffdde5e25eb8">
 
 
 # C++ OOP
