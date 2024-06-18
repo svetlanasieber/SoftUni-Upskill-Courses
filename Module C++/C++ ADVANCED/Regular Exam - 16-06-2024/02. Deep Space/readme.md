@@ -30,7 +30,7 @@ The final output must include:
 - The input is guaranteed to be correct.
 - Sum the number of planets in each segment (e.g., segments `1` and `9` result in a total of `10` planets).
 
-### Examples
+
 
 
 
