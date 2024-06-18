@@ -32,74 +32,9 @@ The final output must include:
 
 ### Examples
 
-#### Example 1
-**Input**
-
-| Matrix | Replacement Word |
-| --- | --- |
-| O.B.G | OB$ |
-| 1#A.9 |   |
-| K$M.T |   |
-| end |   |
-
-**Output**
-
-| Description | Result |
-| --- | --- |
-| Stars | 7 |
-|   | - A: 1 |
-|   | - B: 1 |
-|   | - G: 1 |
-|   | - K: 1 |
-|   | - M: 1 |
-|   | - O: 1 |
-|   | - T: 1 |
-| Planets | 10 |
-| Asteroids/comets | 2 |
-| New Matrix | +.+.G <br> 1#A.9 <br> K+M.T |
-
-#### Example 2
-**Input**
-
-| Matrix | Replacement Word |
-| --- | --- |
-| OB..G | A |
-| .#A#9 |   |
-| K$..T |   |
-| end |   |
-
-**Output**
-
-| Description | Result |
-| --- | --- |
-| Stars | 6 |
-|   | - A: 1 |
-|   | - B: 1 |
-|   | - G: 1 |
-|   | - K: 1 |
-|   | - O: 1 |
-|   | - T: 1 |
-| Planets | 9 |
-| Asteroids/comets | 3 |
-| New Matrix | OB..G <br> .#+#9 <br> K$..T |
-
-#### Example 3
-**Input**
-
-| Matrix | Replacement Word |
-| --- | --- |
-| ....... | A |
-| ....... |   |
-| ....... |   |
-| end |   |
-
-**Output**
-
-| Description | Result |
-| --- | --- |
-| Stars | 0 |
-| Planets | 0 |
-| Asteroids/comets | 0 |
-| New Matrix | ....... <br> ....... <br> ....... |
 
 
+<img width="812" alt="deep_space_1_2" src="https://github.com/svetlanasieber/Software-Engineering--Path-SoftUni/assets/135451084/f85897d9-6c96-495b-aca9-b5b8bd2a2439">
+
+
+<img width="442" alt="deep_space_3" src="https://github.com/svetlanasieber/Software-Engineering--Path-SoftUni/assets/135451084/c72dd32d-29d1-435e-94e2-8c1a3b67481a">
