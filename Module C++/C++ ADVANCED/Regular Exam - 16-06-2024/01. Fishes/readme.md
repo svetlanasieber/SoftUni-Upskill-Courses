@@ -97,3 +97,4 @@ Nemo, Dory, Coral, Bubbles, and Finn go to Flow A. Marlin, Goldie, and Splash go
 - Flow B: The fishes come out in the order they entered (Marlin, Goldie, Splash).
 
 
+<img width="799" alt="fisher_example1" src="https://github.com/svetlanasieber/Software-Engineering--Path-SoftUni/assets/135451084/7fd1dd80-f0c1-4d4a-9407-668e782e942c">
