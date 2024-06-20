@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class First_Task {
+public class P02_BlackFlag {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int days = Integer.parseInt(scanner.nextLine()); 
