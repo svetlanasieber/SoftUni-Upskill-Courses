@@ -1,1 +1,9 @@
-
+------------------------------------------
+• Scientific method introduction;
+------------------------------------------------------------------------------
+• Solving linear equations and systems (the “slow” way);
+------------------------------------------------------------------------------
+• Trigonometry. Right triangle, unit circle, functions and graphs, identities;
+--------------------------------------------------------------------------------
+• High-School geometry, intro to computational geometry.
+--------------------------------------------------------------------------------
