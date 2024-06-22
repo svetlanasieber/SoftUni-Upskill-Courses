@@ -1,4 +1,4 @@
-# Deep Space Problem
+# Deep Space 
 
 ## Problem Description
 
