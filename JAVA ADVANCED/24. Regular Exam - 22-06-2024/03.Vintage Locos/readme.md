@@ -28,6 +28,9 @@ Hint: You can use this to format the date:
 DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd.MM.yyyy");
 String formattedDate = LocalDate.from(getBuildDate()).format(formatter);
 
+DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd.MM.yyyy");
+String formattedDate = LocalDate.from(getBuildDate()).format(formatter);
+
 "This train station is full!"
 
 "The rail gauge of this station does not match the locomotive gauge! Difference: {the difference between the station gauge and the locomotive gauge in absolute value} mm."
