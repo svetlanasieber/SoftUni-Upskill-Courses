@@ -50,13 +50,7 @@ The output of your program should be printed on the Console, on separate lines, 
 
 ## Example
 
-```plaintext
-Input:
-5 10 15
-10 10
+<img width="362" alt="rapid_input" src="https://github.com/svetlanasieber/Software-Engineering--Path-SoftUni/assets/135451084/97672476-4e34-4d6d-bd77-4bfa11caed88">
 
-Output:
-Total weight: 25 kg
-Couriers are still on duty: 5 but there are no more packages to deliver.
 
-<img width="362" alt="rapid_input" src="https://github.com/svetlanasieber/Software-Engineering--Path-SoftUni/assets/135451084/9f20e6f5-0ba6-4f90-8a2d-3cbb323894cc">
+
