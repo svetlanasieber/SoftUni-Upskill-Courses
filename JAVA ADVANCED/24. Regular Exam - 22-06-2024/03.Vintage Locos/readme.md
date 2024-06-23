@@ -44,4 +44,5 @@ n. {locomotive name}"
 
 "There are no locomotives departing from {rail station name} station."
 
+<img width="353" alt="locomotive" src="https://github.com/svetlanasieber/Software-Engineering--Path-SoftUni/assets/135451084/3389773e-ef55-4491-8e3a-38349d8ed2e4">
 
