@@ -1,3 +1,4 @@
+![image](https://github.com/svetlanasieber/Software-Engineering--Path-SoftUni/assets/135451084/b4ee01bf-62b1-484c-b269-b29e2752fa9e)
 
 # Vintage Locomotives
 
