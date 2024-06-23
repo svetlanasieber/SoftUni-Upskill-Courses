@@ -1,52 +1,60 @@
+
 # Vintage Locomotives Repository
 
-Vintage locomotives are fascinating pieces of engineering history, embodying the evolution of rail transportation over the years. These locomotives, often characterized by their distinctive designs and steam-powered engines, played a crucial role in the development of modern railroads.
+## Introduction
+Vintage locomotives are fascinating pieces of engineering history, embodying the evolution of rail transportation over the years. Characterized by their distinctive designs and steam-powered engines, these locomotives have played a crucial role in the development of modern railroads.
 
 ## Preparation
-
-Download the skeleton provided in Judge. Do not change the packages! Pay attention to name the package `vintageLocos`, and ensure all the classes, their fields, and methods are named exactly as presented in this document. It is also important to keep the project structure as described.
+- **Skeleton Download:** Download the provided skeleton from Judge.
+- **Package Name:** Ensure the package is named `vintageLocos`.
+- **Structure Adherence:** Do not change the packages and adhere strictly to the naming conventions and project structure as described in the documentation.
 
 ## Problem Description
+Your task is to develop a repository that efficiently stores information about various locomotives through the creation of specified classes.
 
-Your task is to create a repository that stores locomotives by creating the classes described below.
+### Locomotive Class
+- **Attributes**:
+  - `name`: String (All names are unique)
+  - `builder`: String
+  - `buildDate`: LocalDate
+  - `gauge`: int
+  - `weight`: int
+  - `maxSpeed`: int
+- **Constructor**:
+  - Should initialize with parameters for all attributes.
+- **Methods**:
+  - Getters and setters for all attributes.
+  - Override the `toString()` method to format:
+    ```java
+    "This {locomotive name} is made by {builder} at {build date formatted as 'dd.MM.yyyy'}."
+    ```
+    Use `DateTimeFormatter` of pattern `"dd.MM.yyyy"` for date formatting.
 
-### Locomotive
+### TrainStation Class
+- **Attributes**:
+  - `name`: String
+  - `capacity`: int
+  - `railGauge`: int
+  - `locomotives`: List<Locomotive>
+- **Constructor**:
+  - Initializes `name`, `capacity`, and `railGauge`.
+  - Initializes `locomotives` as a new collection.
+- **Methods**:
+  - `addLocomotive(Locomotive locomotive)`: Adds a locomotive if there is space and the gauge matches, otherwise outputs relevant error messages.
+  - `removeLocomotive(String name)`: Removes a locomotive by name, returns true if successful.
+  - `getFastestLocomotive()`: Returns a string describing the fastest locomotive, or states "There are no locomotives."
+  - `getLocomotive(String name)`: Returns a locomotive by name or null if not found.
+  - `getCount()`: Returns the number of locomotives.
+  - `getOldestLocomotive()`: Returns the name of the oldest locomotive or a message if none exist.
+  - `getStatistics()`: Returns a formatted string listing all locomotives or a message if none are present.
 
-First, write a class `Locomotive` with the following properties:
-- `name: String`
-- `builder: String`
-- `buildDate: LocalDate`
-- `gauge: int`
-- `weight: int`
-- `maxSpeed: int`
+### Constraints
+- The name, build date, and max speed of each locomotive will always be unique.
+- A locomotive is added to the station before any operations that manipulate the collection of locomotives.
 
-The class constructor should receive `name`, `builder`, `buildDate`, `gauge`, `weight`, and `maxSpeed`. You need to create the appropriate getters and setters. All locomotive names will be unique. It is guaranteed that there will be no duplicates of names.
-
-Override the `toString()` method in the following format:
-Hint: You can use this to format the date:
-```java
-DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd.MM.yyyy");
-String formattedDate = LocalDate.from(getBuildDate()).format(formatter);
-
-DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd.MM.yyyy");
-String formattedDate = LocalDate.from(getBuildDate()).format(formatter);
-
-"This train station is full!"
-
-"The rail gauge of this station does not match the locomotive gauge! Difference: {the difference between the station gauge and the locomotive gauge in absolute value} mm."
-
-"{locomotive name} is the fastest locomotive with a maximum speed of {locomotive maxSpeed} km/h."
-
-"There are no locomotives."
-
-"Locomotives departed from {train station name}:
-1. {locomotive name}
-2. {locomotive name}
-(...)
-n. {locomotive name}"
-
-"There are no locomotives departing from {rail station name} station."
-
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+### Examples
+Provide practical examples demonstrating the usage of the `TrainStation` class, illustrating how locomotives are managed and queried within the system.
 
 
+
+<img width="353" alt="locomotive" src="https://github.com/svetlanasieber/Software-Engineering--Path-SoftUni/assets/135451084/a687264e-3492-4c38-b409-204de13f38ef">
