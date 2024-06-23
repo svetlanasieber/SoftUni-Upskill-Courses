@@ -1,5 +1,5 @@
 
-# Bee Field Simulation
+# Beesy
 
 Bees are indispensable for maintaining the health of ecosystems, promoting biodiversity, supporting agriculture, and ensuring food availability for human populations worldwide. Protecting bee populations and their habitats is crucial for the well-being of both ecosystems and humanity.
 
