@@ -1,5 +1,5 @@
 
-# Vintage Locomotives Repository
+# Vintage Locomotives
 
 ## Introduction
 Vintage locomotives are fascinating pieces of engineering history, embodying the evolution of rail transportation over the years. Characterized by their distinctive designs and steam-powered engines, these locomotives have played a crucial role in the development of modern railroads.
