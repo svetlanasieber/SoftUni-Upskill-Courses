@@ -57,6 +57,14 @@ This program simulates a bee's journey in a field to collect nectar and return t
 ## Examples
 
 
+<img width="355" alt="1-bees" src="https://github.com/svetlanasieber/Software-Engineering--Path-SoftUni/assets/135451084/5e8ff985-9b9d-42e5-a244-82fc0ed0ca16">
+
+<img width="353" alt="2-bees" src="https://github.com/svetlanasieber/Software-Engineering--Path-SoftUni/assets/135451084/00f7afd5-9f96-4004-88cb-867870822832">
+
+<img width="353" alt="3-bees" src="https://github.com/svetlanasieber/Software-Engineering--Path-SoftUni/assets/135451084/19c022ec-3a3c-4759-989f-c81f62c0ad5a">
+
+
+
 
 
 
