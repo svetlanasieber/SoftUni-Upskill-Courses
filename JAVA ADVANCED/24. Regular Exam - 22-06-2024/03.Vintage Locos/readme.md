@@ -4,10 +4,7 @@
 ## Introduction
 Vintage locomotives are fascinating pieces of engineering history, embodying the evolution of rail transportation over the years. Characterized by their distinctive designs and steam-powered engines, these locomotives have played a crucial role in the development of modern railroads.
 
-## Preparation
-- **Skeleton Download:** Download the provided skeleton from Judge.
-- **Package Name:** Ensure the package is named `vintageLocos`.
-- **Structure Adherence:** Do not change the packages and adhere strictly to the naming conventions and project structure as described in the documentation.
+
 
 ## Problem Description
 Your task is to develop a repository that efficiently stores information about various locomotives through the creation of specified classes.
