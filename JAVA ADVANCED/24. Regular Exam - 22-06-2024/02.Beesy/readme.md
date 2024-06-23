@@ -1,3 +1,4 @@
+![image](https://github.com/svetlanasieber/Software-Engineering--Path-SoftUni/assets/135451084/4b2bfc15-df29-4b92-b0ee-42d4dd64621a)
 
 # Beesy
 
