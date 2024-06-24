@@ -1,7 +1,7 @@
-double grade = double.Parse(Console.ReadLine());
+double gr = double.Parse(Console.ReadLine());
 
 
-PrintGradeInWords(grade);
+PrintGradeInWords(gr);
 
 static void PrintGradeInWords(double grade)
 {
@@ -27,4 +27,5 @@ static void PrintGradeInWords(double grade)
         Console.WriteLine("Excellent");
     }
 }
+
 
