@@ -1,4 +1,11 @@
-# • Project Architecture;
-# • Code Refactoring;
-# • Enumerations;
-# • Static Keyword.
+--------------------------------------
+• Project Architecture;
+-------------------------------------
+• Code Refactoring;
+-------------------------------------
+• Enumerations;
+--------------------------------------
+• Static Keyword;
+--------------------------------------
+• Java Packages.
+--------------------------------------
