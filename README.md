@@ -15,7 +15,7 @@
 
 
 # This repository contains projects and assignments related to my education at Software University [**SoftUni**](https://softuni.bg/).
-
+# This repository contains projects and assignments related to my education at Software University (https://alpha.judge.softuni.org/)
 
 
 
