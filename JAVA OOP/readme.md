@@ -33,3 +33,4 @@
 | Regular Exam                              | Exam           |
 | Retake Exam                               | Exam           |
 
+https://alpha.judge.softuni.org/
