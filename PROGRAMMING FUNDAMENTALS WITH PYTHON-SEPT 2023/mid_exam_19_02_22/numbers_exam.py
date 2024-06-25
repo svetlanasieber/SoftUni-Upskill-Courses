@@ -22,3 +22,4 @@ while True:
     elif command == 'Collapse':
         value = int(input_command[1])
         input_numbers = [num for num in input_numbers if num >= value]
+
