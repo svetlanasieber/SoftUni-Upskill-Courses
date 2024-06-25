@@ -47,3 +47,9 @@
 | Regular Final Exam                               | Exam           |
 
 
+## 🏆 Evaluation
+
+-  **Platform**: All tasks found in this repository are assessed through the [SoftUni Judge system](https://judge.softuni.org/).
+-   **Platform**: All tasks found in this repository are assessed through the [SoftUni Judge system](https://alpha.judge.softuni.org/). 
+- **Grading**: Tasks are graded based on functionality, code quality, and adherence to requirements.
+
