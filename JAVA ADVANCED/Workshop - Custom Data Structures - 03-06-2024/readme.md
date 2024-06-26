@@ -43,11 +43,7 @@ The `CustomStack` class functions similar to the `Java ArrayDeque` and supports:
 2. **Capacity Management**:
    - Like `SmartArray`, starts with an initial capacity of 4, resizing as necessary.
 
-## Usage
-Feel free to implement additional functionalities or modify existing ones to enhance performance or adapt to different data types post-generics lecture.
 
-## Contribution
-Contributions via pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
