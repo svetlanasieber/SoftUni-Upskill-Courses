@@ -1,3 +1,5 @@
+// Judge Compile Time Error. Visual Studio - OK!
+
 #include <string>
 #include <unordered_map>
 #include <vector>
