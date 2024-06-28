@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class PermutationsWithoutRepetitions {
+public class P01_PermutationsWithoutRepetitions {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
