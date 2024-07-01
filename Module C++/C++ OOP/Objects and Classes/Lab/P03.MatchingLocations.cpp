@@ -1,4 +1,40 @@
-// Judge Compile Time Error. Visual Studio - OK!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*// Judge Compile Time Error. Visual Studio - OK!
 
 #include <string>
 #include <unordered_map>
@@ -53,4 +89,4 @@ int main()
 				cout << locationInfo << endl;
 		}
 	}
-}
+}*/
