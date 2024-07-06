@@ -1,5 +1,6 @@
 
-<img width="209" alt="2024-05-27 03_17_01-Java OOP - Софтуерен университет" src="https://github.com/svetlanasieber/Software-Engineering--Path-SoftUni/assets/135451084/6ba22d3a-ad74-4bfe-bae0-256a0ef82e5d">
+![java_oop12](https://github.com/svetlanasieber/Software-Engineering--Path-SoftUni/assets/135451084/44e1e321-a46a-47fb-a63c-3d4730e56167)
+
 
 ## Java OOP
 
