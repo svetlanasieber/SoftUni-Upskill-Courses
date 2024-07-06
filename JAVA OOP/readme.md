@@ -32,7 +32,7 @@
 | Exam Preparation                          | Session        |
 | Exam Preparation                          | Session        |
 | Regular Exam                              | Exam           |
-| Retake Exam                               | Exam           |
+
 
 ## 🏆 Evaluation
 
