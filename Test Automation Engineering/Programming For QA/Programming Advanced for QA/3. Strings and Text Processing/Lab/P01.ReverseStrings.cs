@@ -1,7 +1,7 @@
 using System;
 using System.Linq;
 
-namespace P01._ReverseStrings
+namespace P01.ReverseStrings
 {
     class Program
     {
