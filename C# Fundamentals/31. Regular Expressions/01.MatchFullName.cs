@@ -1,23 +1,19 @@
+using System;
 using System.Text.RegularExpressions;
+using System.Linq;
 
-string text = Console.ReadLine();
-
-
-Regex regexPhoneNumber = new Regex(@"[+]359([ -])2\1[0-9]{3}\1[0-9]{4}");
-
-
-
-MatchCollection allValidPhoneNumbers = regexPhoneNumber.Matches(text);
-
-for (int position = 0; position <= allValidPhoneNumbers.Count - 1; position++)
+class Program
 {
-    if (position == allValidPhoneNumbers.Count - 1)
+    static void Main()
     {
-       
-        Console.Write(allValidPhoneNumbers[position].Value);
+        
+        string input = Console.ReadLine();
+
+        string pattern = @"\b[A-Z][a-z]+ [A-Z][a-z]+\b";
+
+        MatchCollection matches = Regex.Matches(input, pattern);
+
+        var matchedNames = matches.Cast<Match>().Select(m => m.Value);
+        Console.WriteLine(string.Join(" ", matchedNames));
     }
-    else
-    {
-        Console.Write(allValidPhoneNumbers[position].Value + ", ");
-    }  
 }
