@@ -1,19 +1,12 @@
-using System;
-using System.Text.RegularExpressions;
-using System.Linq;
+﻿using System.Text.RegularExpressions;
 
-class Program
+string text = Console.ReadLine();
+
+Regex regexFullName = new Regex(@"\b[A-Z][a-z]+ [A-Z][a-z]+\b");
+
+MatchCollection allFullNames = regexFullName.Matches(text);
+
+foreach (Match fullName in allFullNames)
 {
-    static void Main()
-    {
-        
-        string input = Console.ReadLine();
-
-        string pattern = @"\b[A-Z][a-z]+ [A-Z][a-z]+\b";
-
-        MatchCollection matches = Regex.Matches(input, pattern);
-
-        var matchedNames = matches.Cast<Match>().Select(m => m.Value);
-        Console.WriteLine(string.Join(" ", matchedNames));
-    }
+    Console.Write(fullName.Value + " ");
 }
