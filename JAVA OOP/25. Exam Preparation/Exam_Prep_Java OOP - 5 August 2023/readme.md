@@ -1,5 +1,5 @@
 
-# Java OOP Exam Preparation – 1 December 2023
+# Java OOP Exam Preparation 
 
 ## Judge link: [Java OOP Regular Exam - 5 August 2023](https://alpha.judge.softuni.org/contests/java-oop-regular-exam-5-august-2023/4125)
 
