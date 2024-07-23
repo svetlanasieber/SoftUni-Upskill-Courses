@@ -1,7 +1,7 @@
 
 # Java OOP Exam Preparation – 1 December 2023
 
-## Judge link: [Java OOP Regular Exam - 5 August 2023][(https://alpha.judge.softuni.org/contests/java-oop-regular-exam-5-august-2023/4125/practice))]
+## Judge link: [Java OOP Regular Exam - 5 August 2023](https://alpha.judge.softuni.org/contests/java-oop-regular-exam-5-august-2023/4125)
 
 ## Overview
 We are a new bank committed to providing personalized financial services to our customers. Our primary focus is on building strong relationships and understanding the unique needs of each client. We specialize in offering competitive loans to students and adults with flexible terms and competitive interest rates. Our streamlined application process ensures a hassle-free experience for our customers. With a dedicated team of professionals, we aim to deliver exceptional service and support to help our clients achieve their financial goals.
