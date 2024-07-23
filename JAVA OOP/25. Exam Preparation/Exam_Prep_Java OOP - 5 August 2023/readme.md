@@ -7,14 +7,7 @@
 ## Overview
 We are a new bank committed to providing personalized financial services to our customers. Our primary focus is on building strong relationships and understanding the unique needs of each client. We specialize in offering competitive loans to students and adults with flexible terms and competitive interest rates. Our streamlined application process ensures a hassle-free experience for our customers. With a dedicated team of professionals, we aim to deliver exceptional service and support to help our clients achieve their financial goals.
 
-## Setup
-- Upload only the bank package in every task except Unit Tests.
-- Do not modify the interfaces or their packages.
-- Use strong cohesion and loose coupling.
-- Use inheritance and the provided interfaces wherever possible:
-  - This includes constructors, method parameters, and return types.
-- Do not violate your interface implementations by adding more public methods in the concrete class than the interface has defined.
-- Make sure you have no public fields anywhere.
+
 
 ## Task 1: Structure (50 points)
 You are given interfaces, and you have to implement their functionality in the correct classes. It is not required to implement your structure with Engine, ConsoleReader, ConsoleWriter, and similar components. It's good practice but not required.
