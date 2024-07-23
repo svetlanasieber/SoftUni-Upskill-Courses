@@ -3,6 +3,7 @@
 
 ## Judge link: [Java OOP Regular Exam - 5 August 2023](https://alpha.judge.softuni.org/contests/java-oop-regular-exam-5-august-2023/4125)
 
+
 ## Overview
 We are a new bank committed to providing personalized financial services to our customers. Our primary focus is on building strong relationships and understanding the unique needs of each client. We specialize in offering competitive loans to students and adults with flexible terms and competitive interest rates. Our streamlined application process ensures a hassle-free experience for our customers. With a dedicated team of professionals, we aim to deliver exceptional service and support to help our clients achieve their financial goals.
 
@@ -144,4 +145,121 @@ The ControllerImpl class SHOULD NOT handle exceptions! The tests are designed to
     - **Parameters**: bankName - String
     - **Functionality**: Calculates all funds (income from Client and amount from Loan) that have passed through the Bank with the given name. It is calculated from the sum of all Client and Loan prices in the Bank.
       - Return a string in the following format: "The funds of bank {bankName} is {funds}."
-      - The funds should be formatted to the 2nd
+      - The funds should be formatted to the 2nd decimal place!
+  - **Statistics Command**:
+    - **Functionality**: Returns information about each bank. You can use Bank's getStatistics method to implement the current functionality.
+      - "Name: {bankName}, Type: {bankType}
+         Clients: {clientName1}, {clientName2} ... / Clients: none
+         Loans: {loansCount}, Sum of interest rates: {sumOfInterestRates}
+         Name: {bankName}, Type: {bankType}
+         Clients: {clientName1}, {clientName2} ... / Clients: none
+         Loans: {loansCount}, Sum of interest rates: {sumOfInterestRates}"
+  - **End Command**:
+    - Ends the program.
+
+### Input / Output
+You are provided with one interface which will help you with the correct execution process of your program. The interface is Engine and the class implementing this interface should read the input and when the program finishes this class should print the output.
+
+#### Input
+Below you can see the format in which each command will be given in the input:
+- AddBank {type} {name}
+- AddLoan {type}
+- ReturnedLoan {bankName} {loanType}
+- AddClient {bankName} {clientType} {clientName} {clientID} {income}
+- FinalCalculation {bankName}
+- Statistics
+- End
+
+#### Output
+Print the output from each command when issued. If an exception is thrown during any of the commands' execution, print the exception message.
+
+### Examples
+
+#### Input
+
+AddBank BranchBank DSKBank
+AddBank CentralBank Unicredit
+AddBank CentralBank Fibank
+AddLoan StudentLoan
+AddLoan MortgageLoan
+AddLoan MortgageLoan
+ReturnedLoan DSKBank StudentLoan
+ReturnedLoan Unicredit StudentLoan
+ReturnedLoan DSKBank MortgageLoan
+ReturnedLoan Fibank MortgageLoan
+AddClient DSKBank Student Sarah 10A2AFBBAG 5421.5
+AddClient DSKBank Student Tom 54AABAG75 2341.1
+AddClient Fibank Adult Peter 6GSFAAZZ12 125054
+FinalCalculation DSKBank
+Statistics
+End
+
+
+#### Output
+
+BranchBank is successfully added.
+CentralBank is successfully added.
+CentralBank is successfully added.
+StudentLoan is successfully added.
+MortgageLoan is successfully added.
+MortgageLoan is successfully added.
+StudentLoan successfully added to DSKBank.
+Loan of type StudentLoan is missing.
+MortgageLoan successfully added to DSKBank.
+MortgageLoan successfully added to Fibank.
+Student successfully added to DSKBank.
+Student successfully added to DSKBank.
+Adult successfully added to Fibank.
+The funds of bank DSKBank is 6776260.
+Name: DSKBank Type: BranchBank
+Clients: Sarah Tom
+Loans: 2 Sum of interest rates: 4
+Name: Unicredit Type: CentralBank
+Clients: none
+Loans: 0 Sum of interest rates: 0
+Name: Fibank Type: CentralBank
+Clients: Peter
+Loans: 1 Sum of interest rates: 3
+
+
+#### Input
+
+AddBank BranchBank DSKBank
+AddBank CentralBank Fibank
+AddLoan StudentLoan
+AddLoan MortgageLoan
+AddLoan MortgageLoan
+ReturnedLoan DSKBank StudentLoan
+ReturnedLoan Fibank StudentLoan
+ReturnedLoan Fibank MortgageLoan
+AddClient Fibank Student Maria 54TAF433 346.7
+AddClient Fibank Adult Peter 65GTTHA134 5643.1
+FinalCalculation Fibank
+Statistics
+End
+
+
+#### Output
+
+BranchBank is successfully added.
+CentralBank is successfully added.
+StudentLoan is successfully added.
+MortgageLoan is successfully added.
+MortgageLoan is successfully added.
+StudentLoan successfully added to DSKBank.
+Loan of type StudentLoan is missing.
+MortgageLoan successfully added to Fibank.
+Unsuitable bank.
+Adult successfully added to Fibank.
+The funds of bank Fibank is 5564310.
+Name: DSKBank Type: BranchBank
+Clients: none
+Loans: 1 Sum of interest rates: 1
+Name: Fibank Type: CentralBank
+Clients: Peter
+Loans: 1 Sum of interest rates: 3
+
+
+## Task 3: Unit Tests (100 points)
+You will receive a skeleton with three classes inside – Main, Client, and Bank. The Bank class will have some methods, fields, and constructors. Cover the whole class with unit tests to make sure that the class is working as intended. In Judge, you upload a .zip file containing the bank package with BankTests inside.
+
