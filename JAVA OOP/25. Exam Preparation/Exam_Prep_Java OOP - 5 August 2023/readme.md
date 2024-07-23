@@ -261,5 +261,5 @@ Loans: 1 Sum of interest rates: 3
 
 
 ## Task 3: Unit Tests (100 points)
-You will receive a skeleton with three classes inside – Main, Client, and Bank. The Bank class will have some methods, fields, and constructors. Cover the whole class with unit tests to make sure that the class is working as intended. In Judge, you upload a .zip file containing the bank package with BankTests inside.
+You will receive a skeleton with three classes inside – Main, Client, and Bank. The Bank class will have some methods, fields, and constructors. Cover the whole class with unit tests to make sure that the class is working as intended. 
 
