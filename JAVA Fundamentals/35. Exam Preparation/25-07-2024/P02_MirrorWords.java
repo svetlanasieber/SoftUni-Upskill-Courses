@@ -29,12 +29,12 @@ public class P02_MirrorWords {
          
             StringBuilder firstWord = new StringBuilder(matcher.group("firstWord"));
             String secondWord = matcher.group("secondWord");
-            String reversedWord = firstWord.reverse().toString();//lOop
+            String reversedWord = firstWord.reverse().toString();
 
 
             if(reversedWord.equals(secondWord)){
             
-                firstWord.reverse();//Part
+                firstWord.reverse();
                 firstWord.append(" <=> ").append(secondWord);
                 mirrorWords.add(firstWord.toString());
 
