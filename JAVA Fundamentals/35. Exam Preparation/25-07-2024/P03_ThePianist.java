@@ -49,9 +49,8 @@ public class P03_ThePianist {
                         List<String> listToAdd = new ArrayList<>();
 
                     
-                        String currentComposerToAdd = input.split("\\|")[2];//Chopin
-
-                        String currentKeyToAdd = input.split("\\|")[3];//B Minor
+                        String currentComposerToAdd = input.split("\\|")[2];
+                        String currentKeyToAdd = input.split("\\|")[3];
 
                        
                         listToAdd.add(currentComposerToAdd);
