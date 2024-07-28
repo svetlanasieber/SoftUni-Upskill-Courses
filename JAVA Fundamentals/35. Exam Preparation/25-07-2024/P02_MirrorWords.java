@@ -33,8 +33,7 @@ public class P02_MirrorWords {
 
 
             if(reversedWord.equals(secondWord)){
-                //#Part##traP
-                //firstWord = trap
+            
                 firstWord.reverse();//Part
                 firstWord.append(" <=> ").append(secondWord);
                 mirrorWords.add(firstWord.toString());
