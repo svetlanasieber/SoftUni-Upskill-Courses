@@ -1,5 +1,3 @@
-package order_by_age_06;
-
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
