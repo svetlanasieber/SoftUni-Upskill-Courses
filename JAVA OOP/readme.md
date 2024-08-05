@@ -1,5 +1,6 @@
 
-![java_oop12](https://github.com/svetlanasieber/Software-Engineering--Path-SoftUni/assets/135451084/44e1e321-a46a-47fb-a63c-3d4730e56167)
+![JavaOOP](https://github.com/user-attachments/assets/3aa3e81e-4240-4a98-9af6-83440ddd629f)
+
 
 
 ## Java OOP
