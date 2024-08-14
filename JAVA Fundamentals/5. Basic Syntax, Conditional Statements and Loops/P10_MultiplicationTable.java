@@ -8,7 +8,7 @@ public class P10_MultiplicationTable {
       
         for (int multiplier = 1; multiplier <= 10 ; multiplier++) {
             System.out.printf("%d X %d = %d%n", number, multiplier, number * multiplier);
-            //System.out.println(number + " X " + multiplier + " = " + number * multiplier);
+            
         }
 
         int multiplier = 1;
