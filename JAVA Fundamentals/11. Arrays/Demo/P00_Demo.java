@@ -15,5 +15,10 @@ public class P00_Demo {
         System.out.println(array[2]);
         System.out.println(array[0]);
         System.out.println(array[array.length - 1]);
+
+        String name = "Desi";
+        //"Desi".toCharArray() -> ['D', 'e', 's', 'i']
+        char[] letters = name.toCharArray();
+        
     }
 }
