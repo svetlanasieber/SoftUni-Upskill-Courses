@@ -19,6 +19,8 @@ public class P00_Demo {
         String name = "Desi";
         //"Desi".toCharArray() -> ['D', 'e', 's', 'i']
         char[] letters = name.toCharArray();
-        
+        System.out.println(letters[0]);
+        System.out.println(letters[letters.length - 1]);
+
     }
 }
