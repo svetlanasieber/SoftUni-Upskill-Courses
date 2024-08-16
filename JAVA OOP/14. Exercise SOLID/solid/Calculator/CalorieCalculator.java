@@ -1,4 +1,4 @@
-package solid.calculator;
+package solid.Calculator;
 
 import solid.products.*;
 
