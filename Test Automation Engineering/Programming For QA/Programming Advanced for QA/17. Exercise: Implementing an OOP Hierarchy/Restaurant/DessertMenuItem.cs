@@ -1,5 +1,5 @@
 ﻿
-namespace ExerciseOopHierarchy
+namespace Restaurant
 {
 	public class DessertMenuItem : MenuItem
 	{
