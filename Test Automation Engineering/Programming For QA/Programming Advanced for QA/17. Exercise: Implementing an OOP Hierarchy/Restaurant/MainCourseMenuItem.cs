@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ExerciseOopHierarchy
+namespace Restaurant
 {
 	public class MainCourseMenuItem : MenuItem
 	{
