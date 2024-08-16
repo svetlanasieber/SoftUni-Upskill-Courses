@@ -4,24 +4,19 @@ class Program
 {
     static void Main(string[] args)
     {
+        //variant 1
         Dog puppy = new Dog
         {
             Name = "Sparky",
             Breed = "Labrador",
             Age = 3
         };
+        
+        //variant 2
+        Dog friend = new Dog();
+        friend.Name = "Buddy";
+        friend.Breed = "Golden Retriever";
+        friend.Age = 5;
     }
 }
 
-public class Dog
-{
-    public string Name { get; set; }
-    public string Breed { get; set; }
-    public int Age { get; set; }
-    
-    public void Bark()
-    {
-        Console.WriteLine("Woof woof!");
-    }
-    
-}
