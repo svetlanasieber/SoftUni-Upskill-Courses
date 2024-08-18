@@ -1,2 +1,0 @@
-
-![421653226_840786881280447_901069286168341439_n](https://github.com/user-attachments/assets/8a8305dc-0bfe-40a2-b044-d9ff193a8557)
