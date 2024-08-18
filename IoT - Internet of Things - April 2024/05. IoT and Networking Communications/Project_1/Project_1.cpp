@@ -12,7 +12,7 @@ void setup() {
 
 
 
-  // Start WiFi in station mode to perform scans
+
   WiFi.mode(WIFI_STA);
   WiFi.disconnect();  // Disconnect any existing connection
   Serial.println("Setup done");
@@ -21,7 +21,7 @@ void setup() {
 void loop() {
   Serial.println("Scan start");
 
-  // WiFi.scanNetworks will return the number of networks found
+  
   int n = WiFi.scanNetworks();
   Serial.println("Scan done");
   if (n == 0) {
@@ -30,7 +30,7 @@ void loop() {
     Serial.print(n);
     Serial.println(" networks found");
     for (int i = 0; i < n; ++i) {
-      // Print SSID and RSSI for each network found
+    
       Serial.print(i + 1);
       Serial.print(": ");
       Serial.print(WiFi.SSID(i));
@@ -40,7 +40,7 @@ void loop() {
       Serial.print(" Ch:");
       Serial.print(WiFi.channel(i));
       Serial.print(" Enc:");
-      // Check encryption type and print it
+  
       byte encryptionType = WiFi.encryptionType(i);
       switch (encryptionType) {
         case WIFI_AUTH_OPEN:
@@ -64,8 +64,8 @@ void loop() {
         default:
           Serial.println("Unknown");
       }
-      delay(10);  // Small delay between prints
-      //Try to connect to existing networks
+      delay(10); 
+     
 
       for(int index = 0; index < 3; index++)
       {
