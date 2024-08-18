@@ -36,7 +36,7 @@ int main() {
         wordCounts[lowerWord]++;
     }
 
-    //  with commas
+
     bool first = true;
     for (const string& w : wordsInOrder) {
         if (wordCounts[w] % 2 != 0) {
