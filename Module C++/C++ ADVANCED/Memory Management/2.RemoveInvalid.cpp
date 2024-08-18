@@ -18,7 +18,6 @@ int main() {
         ss >> id;
         std::getline(ss, name);
 
-        // Remove leading spaces from name
         name.erase(0, name.find_first_not_of(" "));
 
         if (id >= 0) {
