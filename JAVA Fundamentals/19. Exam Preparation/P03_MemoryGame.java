@@ -22,7 +22,6 @@ public class P03_MemoryGame {
 
             boolean isValid = isValid(firstIndex, secondIndex, elements.size() - 1);
             if (!isValid) {
-                //String newElement = "-" + moves + "a";
                 String newElement = String.format("-%da", moves);
                 elements.add(elements.size() / 2, newElement);
                 elements.add(elements.size() / 2, newElement);
