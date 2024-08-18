@@ -37,20 +37,20 @@ string compare_vectors(const vector<string>& vec1, const vector<string>& vec2) {
             }
         }
         else {
-            // tuk length
+      
             result += (vec1[i].length() > vec2[j].length()) ? '<' : '>';
         }
         ++i;
         ++j;
     }
 
-    // edno
+   
     while (i < vec1.size()) {
         result += '+';
         ++i;
     }
 
-    // dve
+  
     while (j < vec2.size()) {
         result += '-';
         ++j;
@@ -67,7 +67,7 @@ int main() {
     
     string comparison_result = compare_vectors(vector1, vector2);
 
-    // Krai
+   
     cout << comparison_result << endl;
 
     return 0;
