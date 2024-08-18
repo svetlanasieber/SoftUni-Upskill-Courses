@@ -58,7 +58,6 @@ int main() {
 
 	copyArr[3] = 42;
 
-	// these will not be the same thanks the the copy assignment operator overload
 	for (int i = 0; i < arr.getSize(); i++) {
 		std::cout << arr[i] << " vs. " << copyArr[i] << std::endl;
 	}
