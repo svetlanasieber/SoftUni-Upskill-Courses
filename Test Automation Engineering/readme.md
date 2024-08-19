@@ -1,3 +1,1 @@
-
-
-![programming-basics-jan2022-cover_185834910](https://github.com/user-attachments/assets/1fe0ae02-1d22-40f8-b5c1-3ba9c0188e2c)
+![data-science-blog-jun24_141221103](https://github.com/user-attachments/assets/261e0c98-1224-497b-b8cd-62f36a7172f5)
