@@ -1,1 +1,2 @@
-![data-science-blog-jun24_141221103](https://github.com/user-attachments/assets/261e0c98-1224-497b-b8cd-62f36a7172f5)
+
+![programming-vs-qa-cover_113121463](https://github.com/user-attachments/assets/71943036-b264-4b25-892e-8d071b45b229)
