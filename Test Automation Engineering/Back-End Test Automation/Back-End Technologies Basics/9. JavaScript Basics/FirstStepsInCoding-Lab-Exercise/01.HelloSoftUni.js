@@ -1,7 +1,7 @@
-function HelloSoftUni(){
+function hellosoftuni(){
 
     console.log("Hello SoftUni");
 
 }
 
-HelloSoftUni();
+hellosoftuni();
