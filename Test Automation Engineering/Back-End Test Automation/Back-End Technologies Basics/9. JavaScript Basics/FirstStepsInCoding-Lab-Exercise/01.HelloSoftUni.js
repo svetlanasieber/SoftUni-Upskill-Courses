@@ -1,1 +1,7 @@
-console.log("Hello SoftUni");
+function HelloSoftUni(){
+
+    console.log("Hello SoftUni");
+
+}
+
+HelloSoftUni();
