@@ -8,3 +8,7 @@ public class Demo_Printf {
         int age = 25;
         String name = "Desislava";
         System.out.printf("I am %s: %d years old.\n", name, age);
+
+
+    }
+}
