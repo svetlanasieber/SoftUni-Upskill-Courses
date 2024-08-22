@@ -8,9 +8,7 @@ public class P02_Passed {
         if (grade >= 3.00) {
             System.out.println("Passed!");
         }
-        else {
-            System.out.println("Failed!");
-        }
-        
+
+
     }
 }
