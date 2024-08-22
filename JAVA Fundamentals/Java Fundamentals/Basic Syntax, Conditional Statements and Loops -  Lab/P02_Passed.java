@@ -7,7 +7,10 @@ public class P02_Passed {
         double grade = Double.parseDouble(scanner.nextLine());
         if (grade >= 3.00) {
             System.out.println("Passed!");
-
         }
+        else {
+            System.out.println("Failed!");
+        }
+        
     }
 }
