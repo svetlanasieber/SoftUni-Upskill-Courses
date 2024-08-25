@@ -1,1 +1,0 @@
-• CI with GitHub Actions.
