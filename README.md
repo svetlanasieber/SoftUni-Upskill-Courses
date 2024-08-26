@@ -14,8 +14,8 @@
 ![Link Sharing_1200x630_AI Applications with Watson_0](https://github.com/user-attachments/assets/63218c25-8064-4e5e-8a77-1625313b074e)
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+![the-role-of-a-java-developer](https://github.com/user-attachments/assets/d018e4c1-9cab-4d85-b7d5-a6de9e173df7)
 
-![1_SzK7ENvZzxy28ItXKJH6Tw](https://github.com/user-attachments/assets/ebd6b4a3-48ad-4495-af13-d5cfdb34cf5d)
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
