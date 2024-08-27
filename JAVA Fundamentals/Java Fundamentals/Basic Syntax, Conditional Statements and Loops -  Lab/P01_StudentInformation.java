@@ -8,8 +8,6 @@ public class P01_StudentInformation {
         int age = Integer.parseInt(scanner.nextLine());
         double averageGrade = Double.parseDouble(scanner.nextLine());
 
-
-//"Name: {student name}, Age: {student age}, Grade: {student grade}".
         System.out.printf("Name: %s, Age: %s, Grade: %.2f", name, age, averageGrade);
     }
 }
