@@ -1,4 +1,4 @@
-# Java Fundamentals: Basic Syntax, Conditional Statements, and Loops - Exercises
+# Java Fundamentals: Basic Syntax, Conditional Statements, and Loops Overview - Exercises
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
