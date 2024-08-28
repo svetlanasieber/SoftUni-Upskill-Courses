@@ -1,1 +1,1 @@
-Java Advanced/OOP Course Introduction
+Java Advanced/Java OOP Course Introduction
