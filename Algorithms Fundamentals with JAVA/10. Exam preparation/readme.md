@@ -1,1 +1,0 @@
-• Solving practical exam.
