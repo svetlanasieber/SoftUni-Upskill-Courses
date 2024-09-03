@@ -1,5 +1,5 @@
 function HelloSoftUni() {
 
-    console.log("Hello SoftUni")
+    console.log("Hello SoftUni");
 }
 HelloSoftUni();
