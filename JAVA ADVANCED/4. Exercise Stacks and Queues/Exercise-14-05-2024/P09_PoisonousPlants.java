@@ -2,7 +2,7 @@ import java.util.ArrayDeque;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class _09_PoisonousPlants {
+public class P09_PoisonousPlants {
 
     public static void main(String[] args) {
 
