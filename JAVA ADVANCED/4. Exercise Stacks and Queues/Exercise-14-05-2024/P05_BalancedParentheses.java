@@ -1,7 +1,7 @@
 import java.util.ArrayDeque;
 import java.util.Scanner;
 
-public class _05_BalancedParentheses {
+public class P05_BalancedParentheses {
 
     public static void main(String[] args) {
 
