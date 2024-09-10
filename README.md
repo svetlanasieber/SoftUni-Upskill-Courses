@@ -1,4 +1,4 @@
-# Software Engineering  - Software University (softuni.bg)
+# Software Engineering Path - Software University (softuni.bg)
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
