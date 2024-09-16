@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace ParkingLot
 {
-    internal class P07ParkingLot
+    internal class ParkingLot
     {
         static void Main(string[] args)
         {
