@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace BasicStackOperations
+namespace 01.BasicStackOperations
 {
     internal class Program
     {
