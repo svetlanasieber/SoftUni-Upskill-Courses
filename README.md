@@ -1,4 +1,4 @@
-# Software Engineering Path - Software University (softuni.bg)
+# UpSkill Courses - Software University (softuni.bg)
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
