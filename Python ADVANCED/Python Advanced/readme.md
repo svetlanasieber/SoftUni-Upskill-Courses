@@ -1,2 +1,1 @@
-
-![python-oop](https://github.com/user-attachments/assets/497aefa5-e170-4c22-816b-76d4f519c6e5)
+![2e26d611-6960-44c4-bc7b-191915117a0c](https://github.com/user-attachments/assets/b60b5832-7622-4e1a-8eb6-c0a44bb802ba)
